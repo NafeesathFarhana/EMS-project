@@ -1,0 +1,48 @@
+
+
+
+                                                  EMS FRONTEND
+                                   -------------------------------------------
+          1.create a new project-npx create-react-app ems-frontend
+          2.cd ems-frontend
+          3.code .
+          4.clear the unwanted codes
+          5.run the project-npm start
+          6.install the third party libraries
+                    ->MDB Bootsrap -npm i mdb-react-ui-kit
+                    ->font awesome -npm i @fortawesome/fontawesome-free
+
+                CSS import
+    Add the following lines in your index.js file before the App.js file import:
+    INDEX.JS
+         import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+         import "@fortawesome/fontawesome-free/css/all.min.css";
+
+                    ->react bootstrap - npm install react-bootstrap bootstrap
+                    ->google fonts - 
+                    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+        paste it in index.html
+     ->bootswatch- import bootstrap min.css in index.js
+     7.components creation
+        ->Admon.jsx
+        ->Add.jsx
+        ->Edit.jsx
+        ->View.jsx
+        ->PageNotFound.jsx
+        ->Header.jsx
+        ->Footer.jsx
+
+    8.path setup
+     ->imstall react-router-dom  -npm i react-router-dom
+        -BrowserRouter (it is for entire application) implement in index.js <app/> want to give inside BrowserRouter
+        -Routes (to hold path of one or more components)
+        -Route (hold the particular path of a component)
+    9.page designing
+        -Header
+        -Admin page
+        -footer 
+   10.API call
+        - AXIOS -npm i AXIOS
+          
